@@ -1,0 +1,684 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 442f09c1f2c146b48ad2f682a91d5ba5, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b501b76121865644ade247a986923a83
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: b501b76121865644ade247a986923a83
+    GuidInternal: 
+    m_lastTime: -8584403668298165356
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 18fcfbb034407f47961e37ad14da9bd1
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 18fcfbb034407f47961e37ad14da9bd1
+    GuidInternal: 
+    m_lastTime: -8584403668298468359
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 18fcfbb034407f47961e37ad14da9bd1
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5afd70e5fd61e74cb04a7d541aa8249e
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 5afd70e5fd61e74cb04a7d541aa8249e
+    GuidInternal: 
+    m_lastTime: -8584401921319317110
+    List:
+    - name: Main
+      guid: 4d1d8de5dddfc34b95a8c9fe9fa5913e
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5afd70e5fd61e74cb04a7d541aa8249e
+      - ElementName: Main
+        ObjectType: 7
+        guid: 4d1d8de5dddfc34b95a8c9fe9fa5913e
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 310fee58677d164f89aa23365c6a9a90
+    ParentPath: Events\Default Work Unit
+    guid: 310fee58677d164f89aa23365c6a9a90
+    GuidInternal: 
+    m_lastTime: -8584399071156916950
+    List:
+    - name: Mute_ambiente
+      guid: 176b1e32183d1e4db14439de1d4abeac
+      id: 3700912920
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Mute_ambiente
+        ObjectType: 3
+        guid: 176b1e32183d1e4db14439de1d4abeac
+      Path: Events\Default Work Unit\Mute_ambiente
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Musica_Terror
+      guid: 322dee23865bab4ab436c51e5aec889b
+      id: 4200392760
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Mute_Musica_Terror
+        ObjectType: 3
+        guid: 322dee23865bab4ab436c51e5aec889b
+      Path: Events\Default Work Unit\Mute_Musica_Terror
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_susurro
+      guid: 9e9560154b912c46afbcc45b74417c51
+      id: 1603571204
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Mute_susurro
+        ObjectType: 3
+        guid: 9e9560154b912c46afbcc45b74417c51
+      Path: Events\Default Work Unit\Mute_susurro
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_susurro_V2
+      guid: 76bd2221a4d5c145a08782366ade2dd6
+      id: 2933698943
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Mute_susurro_V2
+        ObjectType: 3
+        guid: 76bd2221a4d5c145a08782366ade2dd6
+      Path: Events\Default Work Unit\Mute_susurro_V2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_susurro_V3
+      guid: a237a3e52bec2c41a8449a6be416b6c3
+      id: 2933698942
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Mute_susurro_V3
+        ObjectType: 3
+        guid: a237a3e52bec2c41a8449a6be416b6c3
+      Path: Events\Default Work Unit\Mute_susurro_V3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Persona_Llorando_V2
+      guid: 41ab86059b2c3f45816389903b70b495
+      id: 2439427994
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Persona_Llorando_V2
+        ObjectType: 3
+        guid: 41ab86059b2c3f45816389903b70b495
+      Path: Events\Default Work Unit\Persona_Llorando_V2
+      maxAttenuation: 4
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ambiente
+      guid: a5440eba74f5d145b9ab52b349642a41
+      id: 94063951
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Ambiente
+        ObjectType: 3
+        guid: a5440eba74f5d145b9ab52b349642a41
+      Path: Events\Default Work Unit\Play_Ambiente
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ambiente_Mute_Remezcla
+      guid: b3c5a5070d1a6342a02f2aab2bebcc55
+      id: 3073807901
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Ambiente_Mute_Remezcla
+        ObjectType: 3
+        guid: b3c5a5070d1a6342a02f2aab2bebcc55
+      Path: Events\Default Work Unit\Play_Ambiente_Mute_Remezcla
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ambiente_Vertical
+      guid: 0537647e63217849b7623230c488b222
+      id: 3238385508
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Ambiente_Vertical
+        ObjectType: 3
+        guid: 0537647e63217849b7623230c488b222
+      Path: Events\Default Work Unit\Play_Ambiente_Vertical
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cama
+      guid: e4a11d97ead7ac4b8e7cf2ceac3bcdf6
+      id: 3250665892
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Cama
+        ObjectType: 3
+        guid: e4a11d97ead7ac4b8e7cf2ceac3bcdf6
+      Path: Events\Default Work Unit\Play_Cama
+      maxAttenuation: 0
+      maxDuration: 3.5
+      minDuration: 3.5
+    - name: Play_Camilla
+      guid: 27c84f6d6b021b4c94f787965e6b90f5
+      id: 3408996381
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Camilla
+        ObjectType: 3
+        guid: 27c84f6d6b021b4c94f787965e6b90f5
+      Path: Events\Default Work Unit\Play_Camilla
+      maxAttenuation: 0
+      maxDuration: 9
+      minDuration: 9
+    - name: Play_Golpe_Unavez
+      guid: 34067864ea582343b1e8473b4e2216aa
+      id: 1971000861
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Golpe_Unavez
+        ObjectType: 3
+        guid: 34067864ea582343b1e8473b4e2216aa
+      Path: Events\Default Work Unit\Play_Golpe_Unavez
+      maxAttenuation: 0
+      maxDuration: 2
+      minDuration: 2
+    - name: Play_Mueble_V1
+      guid: d0d59ae9718c9a45b3acd61dc17f5150
+      id: 3360156480
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Mueble_V1
+        ObjectType: 3
+        guid: d0d59ae9718c9a45b3acd61dc17f5150
+      Path: Events\Default Work Unit\Play_Mueble_V1
+      maxAttenuation: 0
+      maxDuration: 4.848
+      minDuration: 4.848
+    - name: Play_Mueble_V2
+      guid: 16db8766e1430d43a675922bace6a944
+      id: 3360156483
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Mueble_V2
+        ObjectType: 3
+        guid: 16db8766e1430d43a675922bace6a944
+      Path: Events\Default Work Unit\Play_Mueble_V2
+      maxAttenuation: 0
+      maxDuration: 4.68
+      minDuration: 4.68
+    - name: Play_Musica_Terror
+      guid: 156428c8abbde744b0bef1b139f735b1
+      id: 2809157893
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Musica_Terror
+        ObjectType: 3
+        guid: 156428c8abbde744b0bef1b139f735b1
+      Path: Events\Default Work Unit\Play_Musica_Terror
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Persona_Llorando
+      guid: 7fe28ca12f03764c901dcfd7ec31809f
+      id: 3238142636
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Persona_Llorando
+        ObjectType: 3
+        guid: 7fe28ca12f03764c901dcfd7ec31809f
+      Path: Events\Default Work Unit\Play_Persona_Llorando
+      maxAttenuation: 4
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Puerta_Golpe
+      guid: 296c02c15620f746bf91d1f264813630
+      id: 3686802613
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Puerta_Golpe
+        ObjectType: 3
+        guid: 296c02c15620f746bf91d1f264813630
+      Path: Events\Default Work Unit\Play_Puerta_Golpe
+      maxAttenuation: 0
+      maxDuration: 4.5
+      minDuration: 2
+    - name: Play_Puerta_Golpe_V2
+      guid: 67ea2f9377d31c4381285ab38bb8d79e
+      id: 2264381344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Puerta_Golpe_V2
+        ObjectType: 3
+        guid: 67ea2f9377d31c4381285ab38bb8d79e
+      Path: Events\Default Work Unit\Play_Puerta_Golpe_V2
+      maxAttenuation: 0
+      maxDuration: 4.5
+      minDuration: 4.5
+    - name: Play_Susto
+      guid: 33dca2de3e1e0a4d9ed209cc0e8fb908
+      id: 545700022
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Susto
+        ObjectType: 3
+        guid: 33dca2de3e1e0a4d9ed209cc0e8fb908
+      Path: Events\Default Work Unit\Play_Susto
+      maxAttenuation: 0
+      maxDuration: 4.5
+      minDuration: 4.5
+    - name: Play_Susurro_V2
+      guid: 74b179e2c4f93b42965cad12dc90fad6
+      id: 1031156720
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Susurro_V2
+        ObjectType: 3
+        guid: 74b179e2c4f93b42965cad12dc90fad6
+      Path: Events\Default Work Unit\Play_Susurro_V2
+      maxAttenuation: 0
+      maxDuration: 23.5
+      minDuration: 23.5
+    - name: Play_Susurro_V3
+      guid: 86d4ad6c7860d14bb48a2acecb48fd87
+      id: 1031156721
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Susurro_V3
+        ObjectType: 3
+        guid: 86d4ad6c7860d14bb48a2acecb48fd87
+      Path: Events\Default Work Unit\Play_Susurro_V3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_tubo_fluoresecente
+      guid: 3e2e3543d4980449b62eef7cb8479143
+      id: 2176072023
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_tubo_fluoresecente
+        ObjectType: 3
+        guid: 3e2e3543d4980449b62eef7cb8479143
+      Path: Events\Default Work Unit\Play_tubo_fluoresecente
+      maxAttenuation: 4
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Tubo_fluoresente_v2
+      guid: 8431b99191041342823f776aec65b91d
+      id: 3235161614
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Tubo_fluoresente_v2
+        ObjectType: 3
+        guid: 8431b99191041342823f776aec65b91d
+      Path: Events\Default Work Unit\Play_Tubo_fluoresente_v2
+      maxAttenuation: 4
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ventana
+      guid: 6d37f849bb7f43459c13873493b4d0b3
+      id: 1727156503
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 310fee58677d164f89aa23365c6a9a90
+      - ElementName: Play_Ventana
+        ObjectType: 3
+        guid: 6d37f849bb7f43459c13873493b4d0b3
+      Path: Events\Default Work Unit\Play_Ventana
+      maxAttenuation: 7
+      maxDuration: 9
+      minDuration: 5.5
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5396178e5bf7e143b0ff05cd7093d7ea
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 5396178e5bf7e143b0ff05cd7093d7ea
+    GuidInternal: 
+    m_lastTime: -8584403668298868060
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3699a6f1d884e2438791c594e96f9b84
+    ParentPath: States\Default Work Unit
+    guid: 3699a6f1d884e2438791c594e96f9b84
+    GuidInternal: 
+    m_lastTime: -8584399077068029941
+    List:
+    - name: Susto_Ambiente_Ocurrido
+      guid: d71b05b85ed5e849b7509447630a0600
+      id: 1016687409
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3699a6f1d884e2438791c594e96f9b84
+      - ElementName: Susto_Ambiente_Ocurrido
+        ObjectType: 9
+        guid: d71b05b85ed5e849b7509447630a0600
+      Path: States\Default Work Unit\Susto_Ambiente_Ocurrido
+      values:
+      - name: No
+        guid: c8d5fd4d97caeb4299543ff56320efc8
+        id: 1668749452
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3699a6f1d884e2438791c594e96f9b84
+        - ElementName: Susto_Ambiente_Ocurrido
+          ObjectType: 9
+          guid: d71b05b85ed5e849b7509447630a0600
+        - ElementName: No
+          ObjectType: 8
+          guid: c8d5fd4d97caeb4299543ff56320efc8
+      - name: None
+        guid: 8051abb625785d408576d0218b9636fd
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3699a6f1d884e2438791c594e96f9b84
+        - ElementName: Susto_Ambiente_Ocurrido
+          ObjectType: 9
+          guid: d71b05b85ed5e849b7509447630a0600
+        - ElementName: None
+          ObjectType: 8
+          guid: 8051abb625785d408576d0218b9636fd
+      - name: Si
+        guid: 91c6360fc1b88346bb13ea886436bf39
+        id: 1584861549
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3699a6f1d884e2438791c594e96f9b84
+        - ElementName: Susto_Ambiente_Ocurrido
+          ObjectType: 9
+          guid: d71b05b85ed5e849b7509447630a0600
+        - ElementName: Si
+          ObjectType: 8
+          guid: 91c6360fc1b88346bb13ea886436bf39
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 789d4c9caf7ebe4e82a6430492e082a1
+    ParentPath: Switches\Default Work Unit
+    guid: 789d4c9caf7ebe4e82a6430492e082a1
+    GuidInternal: 
+    m_lastTime: -8584401851348956208
+    List:
+    - name: Estado_Ambiente
+      guid: d2f38361ed67dc4db5701fe6d89333a9
+      id: 2268358515
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 789d4c9caf7ebe4e82a6430492e082a1
+      - ElementName: Estado_Ambiente
+        ObjectType: 11
+        guid: d2f38361ed67dc4db5701fe6d89333a9
+      Path: Switches\Default Work Unit\Estado_Ambiente
+      values:
+      - name: Calma
+        guid: 3c27cb2f7e3f274e91dbb4d73f2d44a2
+        id: 544496509
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 789d4c9caf7ebe4e82a6430492e082a1
+        - ElementName: Estado_Ambiente
+          ObjectType: 11
+          guid: d2f38361ed67dc4db5701fe6d89333a9
+        - ElementName: Calma
+          ObjectType: 10
+          guid: 3c27cb2f7e3f274e91dbb4d73f2d44a2
+      - name: Peligro
+        guid: 69e7aa4282dea74081be02bd7238e3af
+        id: 2103491393
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 789d4c9caf7ebe4e82a6430492e082a1
+        - ElementName: Estado_Ambiente
+          ObjectType: 11
+          guid: d2f38361ed67dc4db5701fe6d89333a9
+        - ElementName: Peligro
+          ObjectType: 10
+          guid: 69e7aa4282dea74081be02bd7238e3af
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b7392394dff7c4409fe6ac36489b6181
+    ParentPath: Triggers\Default Work Unit
+    guid: b7392394dff7c4409fe6ac36489b6181
+    GuidInternal: 
+    m_lastTime: -8584403668297069432
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000007000000220000002300000024000000250000002b000000a1000000a2000000a3000000ab000000ac000000ae000000af0000005501000056010000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

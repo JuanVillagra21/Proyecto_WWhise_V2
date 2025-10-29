@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{58EE0F31-7D67-4F16-89AA-23365C6A9A90}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{58EE0F31-7D67-4F16-89AA-23365C6A9A90}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Puerta_Golpe" ID="{C1026C29-2056-46F7-BF91-D1F264813630}">
+					<ChildrenList>
+						<Action Name="" ID="{951197A8-FC32-4DE9-AE93-056AE3B2B65A}" ShortID="817936822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puerta_Golpe_Random" ID="{50E64B31-35BD-4F9D-AE59-846988D00BB7}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_tubo_fluoresecente" ID="{43352E3E-98D4-4904-B62E-EF7CB8479143}">
+					<ChildrenList>
+						<Action Name="" ID="{1EFDC8AD-3FD1-4BD3-8943-8C755D64516D}" ShortID="1024165824">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Tubo_V3" ID="{5C26F967-D692-4061-A421-372A26204D3E}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Camilla" ID="{6D4FC827-026B-4C1B-94F7-87965E6B90F5}">
+					<ChildrenList>
+						<Action Name="" ID="{6C6D6D82-3BC7-43DD-A4EC-4CA58CDE807E}" ShortID="203275441">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonido_camilla" ID="{85481927-7F82-4ED1-A669-5ACBF661474B}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente" ID="{BA0E44A5-F574-45D1-B9AB-52B349642A41}">
+					<ChildrenList>
+						<Action Name="" ID="{3AEF2451-8C30-43AE-858F-10D611B19669}" ShortID="708993717">
+							<PropertyList>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{80494A24-C971-41E4-B613-E009A617A6AD}" ShortID="822197108">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Hospital_Layered" ID="{DA8F9F02-CDA3-46A7-974D-5481B66F3699}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E647A518-5533-4B8A-AD4D-61828EBF334E}" ShortID="513142938">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Golpe_Unavez" ID="{64780634-58EA-4323-B1E8-473B4E2216AA}">
+					<ChildrenList>
+						<Action Name="" ID="{7D26D2E4-695F-4CCA-ADEE-A782670BF2E8}" ShortID="922809107">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonido_Puerta_V1" ID="{F1F5D919-7F8F-4304-9A61-F46C3E62D27E}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Susto" ID="{DEA2DC33-1E3E-4D0A-9ED2-09CC0E8FB908}">
+					<ChildrenList>
+						<Action Name="" ID="{9AE4608B-5B03-4FF8-B3CD-BF10078BAFFA}" ShortID="730979365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro" ID="{7B6BF065-9A06-4980-BEB1-E2531E69C6BA}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_susurro" ID="{1560959E-914B-462C-AFBC-C45B74417C51}">
+					<ChildrenList>
+						<Action Name="" ID="{DEE5A759-C473-4047-990F-159FD9BD6084}" ShortID="778218341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro" ID="{7B6BF065-9A06-4980-BEB1-E2531E69C6BA}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_ambiente" ID="{321E6B17-3D18-4D1E-B144-39DE1D4ABEAC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{43F228E1-138B-4E86-AF61-2EA2EDB9222C}" ShortID="375275534">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{28684549-6CE0-4804-B836-2B180493FF89}" ShortID="481439884">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Hospital_Layered" ID="{DA8F9F02-CDA3-46A7-974D-5481B66F3699}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ventana" ID="{49F8376D-7FBB-4543-9C13-873493B4D0B3}">
+					<ChildrenList>
+						<Action Name="" ID="{7158DF7D-9A34-434B-B2AC-8AE5AEE1012A}" ShortID="569860424">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ventana_Tap_Random" ID="{2071477C-7FF8-4E69-8E52-B282D9EBF3CA}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mueble_V1" ID="{E99AD5D0-8C71-459A-B3AC-D61DC17F5150}">
+					<ChildrenList>
+						<Action Name="" ID="{FE29B9D6-0F32-44C2-A4DE-A8B1FEE42CAD}" ShortID="176650484">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mueble_v1" ID="{73FD5566-73F5-468F-AF3E-7213F998C90B}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mueble_V2" ID="{6687DB16-43E1-430D-A675-922BACE6A944}">
+					<ChildrenList>
+						<Action Name="" ID="{8CC22316-909D-482D-96CB-72C9D5F7CA13}" ShortID="741900727">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mueble_v2" ID="{A1F5621E-9C55-43B0-9709-99E24E45D05A}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cama" ID="{971DA1E4-D7EA-4BAC-8E7C-F2CEAC3BCDF6}">
+					<ChildrenList>
+						<Action Name="" ID="{066C2028-DA7B-43DA-A9A0-2D3E78B801CE}" ShortID="931436371">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Cama" ID="{1D11CFD1-6142-428A-B9ED-1EE98E838640}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Susurro_V2" ID="{E279B174-F9C4-423B-965C-AD12DC90FAD6}">
+					<ChildrenList>
+						<Action Name="" ID="{3C578602-6C39-4059-84F3-EBC958FD71FC}" ShortID="41927491">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V2" ID="{8A79E6D0-5E50-43EC-AC66-87C541C0B87D}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Susurro_V3" ID="{6CADD486-6078-4BD1-B48A-2ACECB48FD87}">
+					<ChildrenList>
+						<Action Name="" ID="{38CC314B-B8F4-4558-BB16-C382EC57C6DC}" ShortID="180948481">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tubo_fluoresente_v2" ID="{91B93184-0491-4213-823F-776AEC65B91D}">
+					<ChildrenList>
+						<Action Name="" ID="{17B53670-F597-45A3-B8A2-809F263A6D4C}" ShortID="112967525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Tubo_V3" ID="{5C26F967-D692-4061-A421-372A26204D3E}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_susurro_V2" ID="{2122BD76-D5A4-45C1-A087-82366ADE2DD6}">
+					<ChildrenList>
+						<Action Name="" ID="{35C8A093-E63C-41AD-814F-DEE3E5161853}" ShortID="911533570">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Delay" Type="Real64" Value="9"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Persona_Llorando" ID="{A18CE27F-032F-4C76-901D-CFD7EC31809F}">
+					<ChildrenList>
+						<Action Name="" ID="{5556F173-D203-449B-A0ED-0F05AB5E29D8}" ShortID="964774515">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Pesonas_Llorando_V1" ID="{B4FD3C18-68D8-44CA-8D58-0C63B96F0EE3}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Persona_Llorando_V2" ID="{0586AB41-2C9B-453F-8163-89903B70B495}">
+					<ChildrenList>
+						<Action Name="" ID="{B7DE0282-23DF-431E-928D-0B5E39A09DDB}" ShortID="818435406">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Pesonas_Llorando_V2" ID="{E08D22C4-0BB4-480B-8E83-2E2CEB15AC5B}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puerta_Golpe_V2" ID="{932FEA67-D377-431C-8128-5AB38BB8D79E}">
+					<ChildrenList>
+						<Action Name="" ID="{275FC36D-E134-4602-89AA-7A5AB3F06421}" ShortID="1001236205">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonido_Puerta_V2" ID="{DBCABFE5-A424-4951-8AF8-84CA379FB59A}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Musica_Terror" ID="{C8286415-BDAB-44E7-B0BE-F1B139F735B1}">
+					<ChildrenList>
+						<Action Name="" ID="{1BAABF98-1FDD-4258-9E02-F5B6C3F57FB3}" ShortID="834911462">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Playlist_Resencuenciacion_Terror" ID="{0690F82B-BCE9-4DD0-A584-57527DA1349D}" WorkUnitID="{A2A69669-303D-42BA-B604-D6BA0A629B74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_Musica_Terror" ID="{23EE2D32-5B86-4AAB-B436-C51E5AEC889B}">
+					<ChildrenList>
+						<Action Name="" ID="{C0DF80E1-A4A1-4A8B-9A35-7077914FAFCA}" ShortID="611478864">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Delay" Type="Real64" Value="2.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Playlist_Resencuenciacion_Terror" ID="{0690F82B-BCE9-4DD0-A584-57527DA1349D}" WorkUnitID="{A2A69669-303D-42BA-B604-D6BA0A629B74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente_Vertical" ID="{7E643705-2163-4978-B762-3230C488B222}">
+					<ChildrenList>
+						<Action Name="" ID="{038E07EB-2030-4843-B59C-2117E16E99BB}" ShortID="1066376053">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente_Vertical_Mix" ID="{BBD9411E-F4D9-48EF-A35C-AE5E09C53D79}" WorkUnitID="{A2A69669-303D-42BA-B604-D6BA0A629B74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente_Mute_Remezcla" ID="{07A5C5B3-1A0D-4263-A02F-2AAB2BEBCC55}">
+					<ChildrenList>
+						<Action Name="" ID="{A1076EB9-6B85-4512-B0CA-3B46EC1C62F6}" ShortID="17788288">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5B49E530-9C78-4AC0-8738-8DDF7783D4DE}" ShortID="767069310">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_susurro_V3" ID="{E5A337A2-EC2B-412C-A844-9A6BE416B6C3}">
+					<ChildrenList>
+						<Action Name="" ID="{84A74694-7D12-4DF3-B72C-FB67D66B773B}" ShortID="824358482">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0E89D98D-4EDD-44A6-B5E7-83543DCA7FCE}" ShortID="494153592">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="terror" ID="{AFD273CC-83B7-4F04-BC3C-942EA421EC90}" WorkUnitID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
