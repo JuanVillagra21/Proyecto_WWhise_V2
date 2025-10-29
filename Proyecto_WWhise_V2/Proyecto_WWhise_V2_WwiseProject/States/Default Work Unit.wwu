@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F1A69936-84D8-43E2-8791-C594E96F9B84}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{F1A69936-84D8-43E2-8791-C594E96F9B84}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Susto_Ambiente_Ocurrido" ID="{B8051BD7-D55E-49E8-B750-9447630A0600}">
+					<ChildrenList>
+						<State Name="None" ID="{B6AB5180-7825-405D-8576-D0218B9636FD}"/>
+						<State Name="No" ID="{4DFDD5C8-CA97-42EB-9954-3FF56320EFC8}"/>
+						<State Name="Si" ID="{0F36C691-B8C1-4683-BB13-EA886436BF39}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

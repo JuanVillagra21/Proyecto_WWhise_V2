@@ -1,0 +1,51 @@
+Event	ID	Name			Wwise Object Path	Notes
+	94063951	Play_Ambiente			\Default Work Unit\Play_Ambiente	
+	545700022	Play_Susto			\Default Work Unit\Play_Susto	
+	1031156720	Play_Susurro_V2			\Default Work Unit\Play_Susurro_V2	
+	1031156721	Play_Susurro_V3			\Default Work Unit\Play_Susurro_V3	
+	1603571204	Mute_susurro			\Default Work Unit\Mute_susurro	
+	1727156503	Play_Ventana			\Default Work Unit\Play_Ventana	
+	1971000861	Play_Golpe_Unavez			\Default Work Unit\Play_Golpe_Unavez	
+	2176072023	Play_tubo_fluoresecente			\Default Work Unit\Play_tubo_fluoresecente	
+	2264381344	Play_Puerta_Golpe_V2			\Default Work Unit\Play_Puerta_Golpe_V2	
+	2439427994	Persona_Llorando_V2			\Default Work Unit\Persona_Llorando_V2	
+	2809157893	Play_Musica_Terror			\Default Work Unit\Play_Musica_Terror	
+	2933698942	Mute_susurro_V3			\Default Work Unit\Mute_susurro_V3	
+	2933698943	Mute_susurro_V2			\Default Work Unit\Mute_susurro_V2	
+	3073807901	Play_Ambiente_Mute_Remezcla			\Default Work Unit\Play_Ambiente_Mute_Remezcla	
+	3235161614	Play_Tubo_fluoresente_v2			\Default Work Unit\Play_Tubo_fluoresente_v2	
+	3238142636	Play_Persona_Llorando			\Default Work Unit\Play_Persona_Llorando	
+	3250665892	Play_Cama			\Default Work Unit\Play_Cama	
+	3360156480	Play_Mueble_V1			\Default Work Unit\Play_Mueble_V1	
+	3360156483	Play_Mueble_V2			\Default Work Unit\Play_Mueble_V2	
+	3408996381	Play_Camilla			\Default Work Unit\Play_Camilla	
+	3686802613	Play_Puerta_Golpe			\Default Work Unit\Play_Puerta_Golpe	
+	3700912920	Mute_ambiente			\Default Work Unit\Mute_ambiente	
+	4200392760	Mute_Musica_Terror			\Default Work Unit\Mute_Musica_Terror	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	60289013	Sonido_Hospital_ambiente	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonido_Hospital_ambiente_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Sonido_Hospital_ambiente		19051296
+	136225869	Sonidos_Tubo	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Tubo_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Sonidos_Tubo		1058496
+	175709957	Sonido_camilla	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonido_camilla_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Sonido_camilla		1587696
+	272943693	Sonidos_Susurro_V3	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Susurro_V3_163AF1CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Sonidos_Susurro_V3		2028744
+	297696855	Sonidos_Cama	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Cama_9B94EAD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Sonidos_Cama		617496
+	301318690	Sonidos_Ventana_V3	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Ventana_V3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ventana_Tap_Random\Sonidos_Ventana_V3		970296
+	316651106	Sonidos_Susurro_V2	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Susurro_V2_0F1D8D8B.wem		\Actor-Mixer Hierarchy\Default Work Unit\WHISPERS\Sonidos_Susurro_V2		4145496
+	319287017	Sonido_Puerta_V3	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonido_Puerta_V3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Puerta_Golpe_Random\Sonido_Puerta_V3		793896
+	357817121	Violines_V2	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Violines_V2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Playlist_Resencuenciacion_Terror\Violines_V2\Violines_V2		10760496
+	376154045	Sonidos_Tubo_V3	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Tubo_V3_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Sonidos_Tubo_V3		2116896
+	379062858	Sonido_Puerta_V2	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonido_Puerta_V2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Puerta_Golpe_Random\Sonido_Puerta_V2		793896
+	535891736	mueble_v2	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\mueble_v2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\mueble_v2		449376
+	678107680	Stinger_1	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Stinger_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Playlist_Resencuenciacion_Terror\Stinger_1\Stinger_1		976992
+	684448579	mueble_v1	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\mueble_v1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\mueble_v1		465504
+	721059620	Violines_1	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Violines_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Playlist_Resencuenciacion_Terror\Violines_1\Violines_1		2695264
+	771864026	terror	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\terror_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\terror		1391712
+	851551020	Ambiente	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Ambiente_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_Hospital_Layered\Ambiente		5644896
+	908889083	Sonidos_Ventana_V1	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Ventana_V1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ventana_Tap_Random\Sonidos_Ventana_V1		1587696
+	918207000	Sonidos_Ventana_V2	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Ventana_V2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ventana_Tap_Random\Sonidos_Ventana_V2		1323096
+	949559636	Ambiente_Oscura_1	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Ambiente_Oscura_1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Playlist_Resencuenciacion_Terror\Ambiente_Oscura_1\Ambiente_Oscura_1		5769312
+	973395374	Sonidos_Susurro	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Susurro_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WHISPERS\Sonidos_Susurro		793896
+	1019420509	Sonido_Puerta_V1	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonido_Puerta_V1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Puerta_Golpe_Random\Sonido_Puerta_V1		352896
+	1044294762	Sonidos_Pesonas_Llorando_V1	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Pesonas_Llorando_V1_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Sonidos_Pesonas_Llorando_V1		5292096
+	1065225907	Sonidos_Pesonas_Llorando_V2	C:\Users\franv\Proyecto_WWhise_V2\Proyecto_WWhise_V2_WwiseProject\.cache\Windows\SFX\Sonidos_Pesonas_Llorando_V2_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Sonidos_Pesonas_Llorando_V2		4321896
+

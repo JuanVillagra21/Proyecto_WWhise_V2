@@ -1,0 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1016687409	Susto_Ambiente_Ocurrido			\Default Work Unit\Susto_Ambiente_Ocurrido	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Susto_Ambiente_Ocurrido			
+	1584861549	Si	Susto_Ambiente_Ocurrido			
+	1668749452	No	Susto_Ambiente_Ocurrido			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
